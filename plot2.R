@@ -46,6 +46,8 @@ power_sub <- subset(power_cln,
 # Clean up to save space
 rm(power_cln)
 
+## 2. Create Plot
+
 # Open PNG Graphics Device
 png(filename = "plot2.png", width = 480, height = 480)
 
